@@ -1,0 +1,24 @@
+openai:
+  model-name: gpt-3.5-turbo-0125
+  system-content:
+    cifar:  You are an expert assistant at categorizing the concepts from objects. You need to answer to the descriptions accurately providing the necessary and sufficient concepts for onjects. 
+    lesion: You are an expert biomedical assistant at categorizing the concepts from lesions. You need to answer to the descriptions accurately providing the necessary and sufficient concepts for lesions. 
+  prompt-content-templates:
+    - Use 10 sentences to describe what the [CLASS NAME] looks like
+    - Use 10 sentences to describe the appearance of the [CLASS NAME]
+    - Use 10 sentences to describe the color of the [CLASS NAME]
+    - Use 10 sentences to describe the pattern of the [CLASS NAME]
+    - Use 10 sentences to describe the shape of the [CLASS NAME]
+  
+cifar10-classes:
+  - airplane
+  - automobile 
+  - bird
+  - cat
+  - deer
+  - dog
+  - frog
+  - horse
+  - ship
+  - truck
+  
