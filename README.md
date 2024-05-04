@@ -1,4 +1,4 @@
-# Language in a Bottle 
+# 🗣️ Language in a Bottle 🍾
 
 This repository serves as a first step to explore Language Guided Concept Bottleneck Models. Great appreciation is extended to the original creators for their exceptional work. You can find the original repository hosted under the following GitHub account:
 
